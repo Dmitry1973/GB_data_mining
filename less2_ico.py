@@ -7,7 +7,7 @@ for N in range (1, 470):
     print(site.url)
     with open(f'icobench_ico_page_{N}.html', 'w', encoding='utf-8') as d:
         d.write(site.text)
-    N +=1
+   
 
 
 
