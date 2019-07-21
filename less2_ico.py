@@ -1,4 +1,11 @@
+import json
 import requests
+import os
+
+
+my_path = 'ico/'
+if not os.path.isdir(my_path):
+    os.mkdir(my_path)
 
 site_adr = 'https://icobench.com/icos'
 for N in range (1, 470):
